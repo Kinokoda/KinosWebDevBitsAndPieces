@@ -5,7 +5,8 @@
  ```js
  fillBrackets(triggerElement)
  ```
- The fillBrackets() function receives the element that triggered it as an input -I reccomend you use ```onkeypress = ""```to call the function- and if the character that
- was input is an open bracket/quote, it fills it in.
+ The fillBrackets() function receives the element that triggered it as an input -I reccomend you use 
+ ```onkeypress = ""```to call the function- and if the character that was input is an open 
+ bracket/quote, it fills it in.
 
  **Example**: if the input was ```(```, the function adds ```)``` after the cursor.
