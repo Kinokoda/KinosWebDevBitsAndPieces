@@ -1,3 +1,5 @@
+<!-- PHP Based file index creator. Made by Kinokoda. -->
+
 <?php
 
 $fileList = scandir('./'); #Scan the current directory for files and folders
