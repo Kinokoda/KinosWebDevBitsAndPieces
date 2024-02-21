@@ -57,7 +57,7 @@ function fillBrackets(triggerElement)   //Find out if the cursor just input an o
                 let tempTrigElArr = triggerElement.value.split(''); //Making a temporary array of the text field.
                 const closingBracket = closedToOpenBrackets.get(triggerElement.value[cursorPosition - 1]);
 				
-                /*Thanks to  tommyka12 on the UniPi Discord Server for the improved open bracket seeker*/
+                /*Thanks to  tommyka12 on the UniPi Discord Server for the improved open bracket seeker.*/
 				const foundMatchingOpenBracket = openBracketPositions.filter(pos =>
                 closingBracket === triggerElement.value[pos] && tempTrigElArr[cursorPosition] === triggerElement.value[cursorPosition - 1]
                 );
