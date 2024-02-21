@@ -11,4 +11,4 @@
 
  My goal is to implement this into a Vencord plugin. I will post it in its own repo if I succeed
  # phpFileIndex
- Prototype of a directory indexing file.
+ Creates an index of the files next to `index.php`.

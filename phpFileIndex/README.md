@@ -1,2 +1,2 @@
 # fileIndexer
-Creates an index of the files next to `index.php`.
+Indexes everything in the own folder.
