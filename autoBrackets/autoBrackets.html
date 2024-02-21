@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AutoBracket Test</title>
+    </head>
+    <body>
+        <h1>AutoBracket Test</h1>
+        <p>
+           This is a proof of concept site I made. In that text field when you enter an opening bracket of any kind, the field will automatically complete it for you.
+           if you enter a closing bracket after the opening one, it will be deleted. Oh and it kinda works with quotes too. It doesn't remove existing quotes though.
+        </p>
+        <h3 style="color: green">Enjoy.</h3>
+        <form>
+            <input type="text" name="field1" id="field1" onkeypress="fillBrackets(this)"><br>
+        </form>
+        <script src="./autoBrackets.js"></script>
+    </body>
+</html>
