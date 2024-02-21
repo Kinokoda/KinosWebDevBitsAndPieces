@@ -10,3 +10,5 @@
  **Example**: if the input was ```(```, the function adds ```)``` after the cursor.
 
  My goal is to implement this into a Vencord plugin. I will post it in its own repo if I succeed
+ # phpFileIndex
+ Prototype of a directory indexing file.
