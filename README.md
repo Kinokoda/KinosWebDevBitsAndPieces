@@ -4,5 +4,5 @@
  # autoBrackets.js
  This script has the function 
  ```js
- fillBrackets()
+ fillBrackets(triggerElement)
  ```
