@@ -7,7 +7,7 @@ echo "<h1 style = 'text-align: center;'>Index of ".$tempArr[count($tempArr)-1]."
 for ($i = 0; $i < count($fileList); $i++)  #Loop through the array of files and folders
 {
     $hideCheck = $fileList[$i];
-    if(is_dir($fileList[$i]) && $fileList[$i] != '.' && $hideCheck[0] != '.')  #If the current item is a folder...
+    if(is_dir($fileList[$i]) && $fileList[$i] != '.' && !($hideCheck[0] == '.' && $hideCheck[1] != '.'))  #If the current item is a folder...
     {
         if ($fileList[$i] == '..')  #and if it is the parent
         {
@@ -20,7 +20,7 @@ for ($i = 0; $i < count($fileList); $i++)  #Loop through the array of files and 
         }
     }
     
-    elseif(is_file($fileList[$i]))
+    elseif(is_file($fileList[$i]) && !($hideCheck[0] == '.' && $hideCheck[1] != '.'))
     {
         if ($fileList[$i] != "index.php")
         {
