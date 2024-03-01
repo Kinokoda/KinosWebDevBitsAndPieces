@@ -1,7 +1,6 @@
 # KinosWebDevBitsAndPieces
  Little things and pieces I make for fun or for projects. 
-
- # autoBrackets.js
+# autoBrackets.js
  ```js
  fillBrackets(triggerElement)
  ```
@@ -10,5 +9,8 @@
  **Example**: if the input was ```(```, the function adds ```)``` after the cursor.
 
  My goal is to implement this into a Vencord plugin. I will post it in its own repo if I succeed
- # fileIndexer
+# fileIndexer
  Creates an index of the files next to `index.php`.
+
+# folderZipper
+Streams a zip of a folder to the user. Made using [ZipStream-PHP](https://github.com/maennchen/ZipStream-PHP).
